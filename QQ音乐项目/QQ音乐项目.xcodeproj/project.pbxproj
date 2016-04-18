@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0067CF341CAD5CFF00C28828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0067CF331CAD5CFF00C28828 /* main.m */; };
+		0067CF371CAD5D0000C28828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0067CF361CAD5D0000C28828 /* AppDelegate.m */; };
+		0067CF3A1CAD5D0000C28828 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0067CF391CAD5D0000C28828 /* ViewController.m */; };
+		0067CF3D1CAD5D0000C28828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0067CF3B1CAD5D0000C28828 /* Main.storyboard */; };
+		0067CF3F1CAD5D0000C28828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0067CF3E1CAD5D0000C28828 /* Assets.xcassets */; };
+		0067CF421CAD5D0000C28828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0067CF401CAD5D0000C28828 /* LaunchScreen.storyboard */; };
+		0067CF4D1CAD5D0000C28828 /* QQ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0067CF4C1CAD5D0000C28828 /* QQ____Tests.m */; };
+		0067CF581CAD5D0000C28828 /* QQ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0067CF571CAD5D0000C28828 /* QQ____UITests.m */; };
+		00A626091CC51747007A0607 /* WTFormattor.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A626081CC51747007A0607 /* WTFormattor.m */; };
+		00A6260C1CC5182D007A0607 /* WTPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6260B1CC5182D007A0607 /* WTPlayerManager.m */; };
+		00D45EF61CAEB6FE008553DA /* buyao.wav in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EE11CAEB6FE008553DA /* buyao.wav */; };
+		00D45EF71CAEB6FE008553DA /* chatcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EE21CAEB6FE008553DA /* chatcome.wav */; };
+		00D45EF81CAEB6FE008553DA /* G.E.M. 邓紫棋 - 泡沫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EE31CAEB6FE008553DA /* G.E.M. 邓紫棋 - 泡沫.mp3 */; };
+		00D45EF91CAEB6FE008553DA /* I'm yours.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EE41CAEB6FE008553DA /* I'm yours.lrc */; };
+		00D45EFA1CAEB6FE008553DA /* Jason Mraz - I'm Yours.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EE51CAEB6FE008553DA /* Jason Mraz - I'm Yours.mp3 */; };
+		00D45EFB1CAEB6FE008553DA /* jason.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EE61CAEB6FE008553DA /* jason.jpg */; };
+		00D45EFC1CAEB6FE008553DA /* lamazhengzhuan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EE71CAEB6FE008553DA /* lamazhengzhuan.jpg */; };
+		00D45EFD1CAEB6FE008553DA /* Owl City - The Saltwater Room.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EE81CAEB6FE008553DA /* Owl City - The Saltwater Room.mp3 */; };
+		00D45EFE1CAEB6FE008553DA /* paomo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EE91CAEB6FE008553DA /* paomo.jpg */; };
+		00D45EFF1CAEB6FE008553DA /* st.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EEA1CAEB6FE008553DA /* st.jpg */; };
+		00D45F001CAEB6FE008553DA /* test.wav in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EEB1CAEB6FE008553DA /* test.wav */; };
+		00D45F011CAEB6FE008553DA /* The salt water room.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EEC1CAEB6FE008553DA /* The salt water room.lrc */; };
+		00D45F021CAEB6FE008553DA /* xpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EED1CAEB6FE008553DA /* xpg.jpg */; };
+		00D45F031CAEB6FE008553DA /* 小苹果.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EEE1CAEB6FE008553DA /* 小苹果.lrc */; };
+		00D45F041CAEB6FE008553DA /* 小苹果.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EEF1CAEB6FE008553DA /* 小苹果.mp3 */; };
+		00D45F051CAEB6FE008553DA /* 张译 - 稳稳的幸福.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EF01CAEB6FE008553DA /* 张译 - 稳稳的幸福.mp3 */; };
+		00D45F061CAEB6FE008553DA /* 月半小夜曲.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EF11CAEB6FE008553DA /* 月半小夜曲.lrc */; };
+		00D45F071CAEB6FE008553DA /* 李克勤 - 月半小夜曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EF21CAEB6FE008553DA /* 李克勤 - 月半小夜曲.mp3 */; };
+		00D45F081CAEB6FE008553DA /* 李克勤.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EF31CAEB6FE008553DA /* 李克勤.jpg */; };
+		00D45F091CAEB6FE008553DA /* 泡沫.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EF41CAEB6FE008553DA /* 泡沫.lrc */; };
+		00D45F0A1CAEB6FE008553DA /* 稳稳的幸福.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 00D45EF51CAEB6FE008553DA /* 稳稳的幸福.lrc */; };
+		00D45F0C1CAEB6FF008553DA /* mlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00D45F0B1CAEB6FF008553DA /* mlist.plist */; };
+		00D45F151CAEBA6A008553DA /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D45F141CAEBA6A008553DA /* NSObject+Model.m */; };
+		00D45F181CAEBA99008553DA /* WTMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D45F171CAEBA99008553DA /* WTMusic.m */; };
+		00D45F1E1CAEC7C5008553DA /* WTLineLyric.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D45F1D1CAEC7C5008553DA /* WTLineLyric.m */; };
+		00D45F211CAEC932008553DA /* NSDateFormatter+Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D45F201CAEC932008553DA /* NSDateFormatter+Shared.m */; };
+		00D45F241CAEC9A0008553DA /* WTLyricParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D45F231CAEC9A0008553DA /* WTLyricParser.m */; };
+		00D45F271CAECF3E008553DA /* WTLyricLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D45F261CAECF3E008553DA /* WTLyricLabel.m */; };
+		00F7D4741CAFC12600DEDEC4 /* WTLyricView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F7D4731CAFC12600DEDEC4 /* WTLyricView.m */; };
+		00F7D4771CAFF28F00DEDEC4 /* WTLyricSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F7D4761CAFF28F00DEDEC4 /* WTLyricSlider.m */; };
+		00F7D4791CAFF2BC00DEDEC4 /* WTLyricSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00F7D4781CAFF2BB00DEDEC4 /* WTLyricSlider.xib */; };
+		867C68571A4005EC42D8581C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAF2E2AED7F7076E4B3AF40 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0067CF491CAD5D0000C28828 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0067CF271CAD5CFF00C28828 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0067CF2E1CAD5CFF00C28828;
+			remoteInfo = "QQ音乐项目";
+		};
+		0067CF541CAD5D0000C28828 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0067CF271CAD5CFF00C28828 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0067CF2E1CAD5CFF00C28828;
+			remoteInfo = "QQ音乐项目";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0067CF2F1CAD5CFF00C28828 /* QQ音乐项目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QQ音乐项目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0067CF331CAD5CFF00C28828 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0067CF351CAD5D0000C28828 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0067CF361CAD5D0000C28828 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0067CF381CAD5D0000C28828 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
+		0067CF391CAD5D0000C28828 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
+		0067CF3C1CAD5D0000C28828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0067CF3E1CAD5D0000C28828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0067CF411CAD5D0000C28828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0067CF431CAD5D0000C28828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0067CF481CAD5D0000C28828 /* QQ音乐项目Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QQ音乐项目Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0067CF4C1CAD5D0000C28828 /* QQ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QQ____Tests.m"; sourceTree = "<group>"; };
+		0067CF4E1CAD5D0000C28828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0067CF531CAD5D0000C28828 /* QQ音乐项目UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QQ音乐项目UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0067CF571CAD5D0000C28828 /* QQ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QQ____UITests.m"; sourceTree = "<group>"; };
+		0067CF591CAD5D0000C28828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A626071CC51747007A0607 /* WTFormattor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTFormattor.h; sourceTree = "<group>"; };
+		00A626081CC51747007A0607 /* WTFormattor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTFormattor.m; sourceTree = "<group>"; };
+		00A6260A1CC5182D007A0607 /* WTPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTPlayerManager.h; sourceTree = "<group>"; };
+		00A6260B1CC5182D007A0607 /* WTPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTPlayerManager.m; sourceTree = "<group>"; };
+		00D45EE11CAEB6FE008553DA /* buyao.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buyao.wav; sourceTree = "<group>"; };
+		00D45EE21CAEB6FE008553DA /* chatcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chatcome.wav; sourceTree = "<group>"; };
+		00D45EE31CAEB6FE008553DA /* G.E.M. 邓紫棋 - 泡沫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G.E.M. 邓紫棋 - 泡沫.mp3"; sourceTree = "<group>"; };
+		00D45EE41CAEB6FE008553DA /* I'm yours.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "I'm yours.lrc"; sourceTree = "<group>"; };
+		00D45EE51CAEB6FE008553DA /* Jason Mraz - I'm Yours.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jason Mraz - I'm Yours.mp3"; sourceTree = "<group>"; };
+		00D45EE61CAEB6FE008553DA /* jason.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jason.jpg; sourceTree = "<group>"; };
+		00D45EE71CAEB6FE008553DA /* lamazhengzhuan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lamazhengzhuan.jpg; sourceTree = "<group>"; };
+		00D45EE81CAEB6FE008553DA /* Owl City - The Saltwater Room.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Owl City - The Saltwater Room.mp3"; sourceTree = "<group>"; };
+		00D45EE91CAEB6FE008553DA /* paomo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paomo.jpg; sourceTree = "<group>"; };
+		00D45EEA1CAEB6FE008553DA /* st.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = st.jpg; sourceTree = "<group>"; };
+		00D45EEB1CAEB6FE008553DA /* test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test.wav; sourceTree = "<group>"; };
+		00D45EEC1CAEB6FE008553DA /* The salt water room.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The salt water room.lrc"; sourceTree = "<group>"; };
+		00D45EED1CAEB6FE008553DA /* xpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xpg.jpg; sourceTree = "<group>"; };
+		00D45EEE1CAEB6FE008553DA /* 小苹果.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "小苹果.lrc"; sourceTree = "<group>"; };
+		00D45EEF1CAEB6FE008553DA /* 小苹果.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "小苹果.mp3"; sourceTree = "<group>"; };
+		00D45EF01CAEB6FE008553DA /* 张译 - 稳稳的幸福.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "张译 - 稳稳的幸福.mp3"; sourceTree = "<group>"; };
+		00D45EF11CAEB6FE008553DA /* 月半小夜曲.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "月半小夜曲.lrc"; sourceTree = "<group>"; };
+		00D45EF21CAEB6FE008553DA /* 李克勤 - 月半小夜曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "李克勤 - 月半小夜曲.mp3"; sourceTree = "<group>"; };
+		00D45EF31CAEB6FE008553DA /* 李克勤.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李克勤.jpg"; sourceTree = "<group>"; };
+		00D45EF41CAEB6FE008553DA /* 泡沫.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "泡沫.lrc"; sourceTree = "<group>"; };
+		00D45EF51CAEB6FE008553DA /* 稳稳的幸福.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "稳稳的幸福.lrc"; sourceTree = "<group>"; };
+		00D45F0B1CAEB6FF008553DA /* mlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mlist.plist; sourceTree = "<group>"; };
+		00D45F131CAEBA6A008553DA /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		00D45F141CAEBA6A008553DA /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		00D45F161CAEBA99008553DA /* WTMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMusic.h; sourceTree = "<group>"; };
+		00D45F171CAEBA99008553DA /* WTMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMusic.m; sourceTree = "<group>"; };
+		00D45F1C1CAEC7C5008553DA /* WTLineLyric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTLineLyric.h; sourceTree = "<group>"; };
+		00D45F1D1CAEC7C5008553DA /* WTLineLyric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTLineLyric.m; sourceTree = "<group>"; };
+		00D45F1F1CAEC932008553DA /* NSDateFormatter+Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Shared.h"; sourceTree = "<group>"; };
+		00D45F201CAEC932008553DA /* NSDateFormatter+Shared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Shared.m"; sourceTree = "<group>"; };
+		00D45F221CAEC9A0008553DA /* WTLyricParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTLyricParser.h; sourceTree = "<group>"; };
+		00D45F231CAEC9A0008553DA /* WTLyricParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTLyricParser.m; sourceTree = "<group>"; };
+		00D45F251CAECF3E008553DA /* WTLyricLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTLyricLabel.h; sourceTree = "<group>"; };
+		00D45F261CAECF3E008553DA /* WTLyricLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTLyricLabel.m; sourceTree = "<group>"; };
+		00F7D4721CAFC12600DEDEC4 /* WTLyricView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTLyricView.h; sourceTree = "<group>"; };
+		00F7D4731CAFC12600DEDEC4 /* WTLyricView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTLyricView.m; sourceTree = "<group>"; };
+		00F7D4751CAFF28F00DEDEC4 /* WTLyricSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTLyricSlider.h; sourceTree = "<group>"; };
+		00F7D4761CAFF28F00DEDEC4 /* WTLyricSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTLyricSlider.m; sourceTree = "<group>"; };
+		00F7D4781CAFF2BB00DEDEC4 /* WTLyricSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTLyricSlider.xib; sourceTree = "<group>"; };
+		606ECF22DA3A9FE6AB4D490C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AAAF2E2AED7F7076E4B3AF40 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D12DDE2A0DC4EC824E468C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0067CF2C1CAD5CFF00C28828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867C68571A4005EC42D8581C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0067CF451CAD5D0000C28828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0067CF501CAD5D0000C28828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0067CF261CAD5CFE00C28828 = {
+			isa = PBXGroup;
+			children = (
+				0067CF311CAD5CFF00C28828 /* QQ音乐项目 */,
+				0067CF4B1CAD5D0000C28828 /* QQ音乐项目Tests */,
+				0067CF561CAD5D0000C28828 /* QQ音乐项目UITests */,
+				0067CF301CAD5CFF00C28828 /* Products */,
+				D2AB4560C0CAECADDB911F09 /* Pods */,
+				7EEF322740044F1D0261ED25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0067CF301CAD5CFF00C28828 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0067CF2F1CAD5CFF00C28828 /* QQ音乐项目.app */,
+				0067CF481CAD5D0000C28828 /* QQ音乐项目Tests.xctest */,
+				0067CF531CAD5D0000C28828 /* QQ音乐项目UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0067CF311CAD5CFF00C28828 /* QQ音乐项目 */ = {
+			isa = PBXGroup;
+			children = (
+				00D45F0D1CAEBA52008553DA /* Class */,
+				0067CF351CAD5D0000C28828 /* AppDelegate.h */,
+				0067CF361CAD5D0000C28828 /* AppDelegate.m */,
+				0067CF3B1CAD5D0000C28828 /* Main.storyboard */,
+				0067CF3E1CAD5D0000C28828 /* Assets.xcassets */,
+				0067CF401CAD5D0000C28828 /* LaunchScreen.storyboard */,
+				0067CF431CAD5D0000C28828 /* Info.plist */,
+				0067CF321CAD5CFF00C28828 /* Supporting Files */,
+			);
+			path = "QQ音乐项目";
+			sourceTree = "<group>";
+		};
+		0067CF321CAD5CFF00C28828 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00D45EE01CAEB6FE008553DA /* music */,
+				00D45F0B1CAEB6FF008553DA /* mlist.plist */,
+				0067CF331CAD5CFF00C28828 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0067CF4B1CAD5D0000C28828 /* QQ音乐项目Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0067CF4C1CAD5D0000C28828 /* QQ____Tests.m */,
+				0067CF4E1CAD5D0000C28828 /* Info.plist */,
+			);
+			path = "QQ音乐项目Tests";
+			sourceTree = "<group>";
+		};
+		0067CF561CAD5D0000C28828 /* QQ音乐项目UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0067CF571CAD5D0000C28828 /* QQ____UITests.m */,
+				0067CF591CAD5D0000C28828 /* Info.plist */,
+			);
+			path = "QQ音乐项目UITests";
+			sourceTree = "<group>";
+		};
+		00D45EE01CAEB6FE008553DA /* music */ = {
+			isa = PBXGroup;
+			children = (
+				00D45EE11CAEB6FE008553DA /* buyao.wav */,
+				00D45EE21CAEB6FE008553DA /* chatcome.wav */,
+				00D45EE31CAEB6FE008553DA /* G.E.M. 邓紫棋 - 泡沫.mp3 */,
+				00D45EE41CAEB6FE008553DA /* I'm yours.lrc */,
+				00D45EE51CAEB6FE008553DA /* Jason Mraz - I'm Yours.mp3 */,
+				00D45EE61CAEB6FE008553DA /* jason.jpg */,
+				00D45EE71CAEB6FE008553DA /* lamazhengzhuan.jpg */,
+				00D45EE81CAEB6FE008553DA /* Owl City - The Saltwater Room.mp3 */,
+				00D45EE91CAEB6FE008553DA /* paomo.jpg */,
+				00D45EEA1CAEB6FE008553DA /* st.jpg */,
+				00D45EEB1CAEB6FE008553DA /* test.wav */,
+				00D45EEC1CAEB6FE008553DA /* The salt water room.lrc */,
+				00D45EED1CAEB6FE008553DA /* xpg.jpg */,
+				00D45EEE1CAEB6FE008553DA /* 小苹果.lrc */,
+				00D45EEF1CAEB6FE008553DA /* 小苹果.mp3 */,
+				00D45EF01CAEB6FE008553DA /* 张译 - 稳稳的幸福.mp3 */,
+				00D45EF11CAEB6FE008553DA /* 月半小夜曲.lrc */,
+				00D45EF21CAEB6FE008553DA /* 李克勤 - 月半小夜曲.mp3 */,
+				00D45EF31CAEB6FE008553DA /* 李克勤.jpg */,
+				00D45EF41CAEB6FE008553DA /* 泡沫.lrc */,
+				00D45EF51CAEB6FE008553DA /* 稳稳的幸福.lrc */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		00D45F0D1CAEBA52008553DA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				00D45F0E1CAEBA52008553DA /* Controller */,
+				00D45F0F1CAEBA52008553DA /* Model */,
+				00D45F101CAEBA52008553DA /* Others */,
+				00D45F121CAEBA52008553DA /* View */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		00D45F0E1CAEBA52008553DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0067CF381CAD5D0000C28828 /* ViewController.h */,
+				0067CF391CAD5D0000C28828 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		00D45F0F1CAEBA52008553DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00D45F161CAEBA99008553DA /* WTMusic.h */,
+				00D45F171CAEBA99008553DA /* WTMusic.m */,
+				00D45F1C1CAEC7C5008553DA /* WTLineLyric.h */,
+				00D45F1D1CAEC7C5008553DA /* WTLineLyric.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00D45F101CAEBA52008553DA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				00D45F111CAEBA52008553DA /* Category */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		00D45F111CAEBA52008553DA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				00A626071CC51747007A0607 /* WTFormattor.h */,
+				00A626081CC51747007A0607 /* WTFormattor.m */,
+				00A6260A1CC5182D007A0607 /* WTPlayerManager.h */,
+				00A6260B1CC5182D007A0607 /* WTPlayerManager.m */,
+				00D45F1F1CAEC932008553DA /* NSDateFormatter+Shared.h */,
+				00D45F201CAEC932008553DA /* NSDateFormatter+Shared.m */,
+				00D45F131CAEBA6A008553DA /* NSObject+Model.h */,
+				00D45F141CAEBA6A008553DA /* NSObject+Model.m */,
+				00D45F221CAEC9A0008553DA /* WTLyricParser.h */,
+				00D45F231CAEC9A0008553DA /* WTLyricParser.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		00D45F121CAEBA52008553DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00D45F251CAECF3E008553DA /* WTLyricLabel.h */,
+				00D45F261CAECF3E008553DA /* WTLyricLabel.m */,
+				00F7D4721CAFC12600DEDEC4 /* WTLyricView.h */,
+				00F7D4731CAFC12600DEDEC4 /* WTLyricView.m */,
+				00F7D4751CAFF28F00DEDEC4 /* WTLyricSlider.h */,
+				00F7D4761CAFF28F00DEDEC4 /* WTLyricSlider.m */,
+				00F7D4781CAFF2BB00DEDEC4 /* WTLyricSlider.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7EEF322740044F1D0261ED25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAAF2E2AED7F7076E4B3AF40 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2AB4560C0CAECADDB911F09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				606ECF22DA3A9FE6AB4D490C /* Pods.debug.xcconfig */,
+				B0D12DDE2A0DC4EC824E468C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0067CF2E1CAD5CFF00C28828 /* QQ音乐项目 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0067CF5C1CAD5D0000C28828 /* Build configuration list for PBXNativeTarget "QQ音乐项目" */;
+			buildPhases = (
+				26D51BCDB0A53F1A1069EABE /* Check Pods Manifest.lock */,
+				0067CF2B1CAD5CFF00C28828 /* Sources */,
+				0067CF2C1CAD5CFF00C28828 /* Frameworks */,
+				0067CF2D1CAD5CFF00C28828 /* Resources */,
+				13EFBC5F9543113AAC1421A3 /* Embed Pods Frameworks */,
+				4812348064314A0FA8AC4C42 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QQ音乐项目";
+			productName = "QQ音乐项目";
+			productReference = 0067CF2F1CAD5CFF00C28828 /* QQ音乐项目.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0067CF471CAD5D0000C28828 /* QQ音乐项目Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0067CF5F1CAD5D0000C28828 /* Build configuration list for PBXNativeTarget "QQ音乐项目Tests" */;
+			buildPhases = (
+				0067CF441CAD5D0000C28828 /* Sources */,
+				0067CF451CAD5D0000C28828 /* Frameworks */,
+				0067CF461CAD5D0000C28828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0067CF4A1CAD5D0000C28828 /* PBXTargetDependency */,
+			);
+			name = "QQ音乐项目Tests";
+			productName = "QQ音乐项目Tests";
+			productReference = 0067CF481CAD5D0000C28828 /* QQ音乐项目Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0067CF521CAD5D0000C28828 /* QQ音乐项目UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0067CF621CAD5D0000C28828 /* Build configuration list for PBXNativeTarget "QQ音乐项目UITests" */;
+			buildPhases = (
+				0067CF4F1CAD5D0000C28828 /* Sources */,
+				0067CF501CAD5D0000C28828 /* Frameworks */,
+				0067CF511CAD5D0000C28828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0067CF551CAD5D0000C28828 /* PBXTargetDependency */,
+			);
+			name = "QQ音乐项目UITests";
+			productName = "QQ音乐项目UITests";
+			productReference = 0067CF531CAD5D0000C28828 /* QQ音乐项目UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0067CF271CAD5CFF00C28828 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wtt;
+				TargetAttributes = {
+					0067CF2E1CAD5CFF00C28828 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DENKXY2C62;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					0067CF471CAD5D0000C28828 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DENKXY2C62;
+						TestTargetID = 0067CF2E1CAD5CFF00C28828;
+					};
+					0067CF521CAD5D0000C28828 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DENKXY2C62;
+						TestTargetID = 0067CF2E1CAD5CFF00C28828;
+					};
+				};
+			};
+			buildConfigurationList = 0067CF2A1CAD5CFF00C28828 /* Build configuration list for PBXProject "QQ音乐项目" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0067CF261CAD5CFE00C28828;
+			productRefGroup = 0067CF301CAD5CFF00C28828 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0067CF2E1CAD5CFF00C28828 /* QQ音乐项目 */,
+				0067CF471CAD5D0000C28828 /* QQ音乐项目Tests */,
+				0067CF521CAD5D0000C28828 /* QQ音乐项目UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0067CF2D1CAD5CFF00C28828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D45F051CAEB6FE008553DA /* 张译 - 稳稳的幸福.mp3 in Resources */,
+				00D45EFF1CAEB6FE008553DA /* st.jpg in Resources */,
+				00D45F071CAEB6FE008553DA /* 李克勤 - 月半小夜曲.mp3 in Resources */,
+				00D45EFD1CAEB6FE008553DA /* Owl City - The Saltwater Room.mp3 in Resources */,
+				00D45EF81CAEB6FE008553DA /* G.E.M. 邓紫棋 - 泡沫.mp3 in Resources */,
+				00D45F041CAEB6FE008553DA /* 小苹果.mp3 in Resources */,
+				00D45F091CAEB6FE008553DA /* 泡沫.lrc in Resources */,
+				00D45F011CAEB6FE008553DA /* The salt water room.lrc in Resources */,
+				00D45EFA1CAEB6FE008553DA /* Jason Mraz - I'm Yours.mp3 in Resources */,
+				00D45F0A1CAEB6FE008553DA /* 稳稳的幸福.lrc in Resources */,
+				00D45F021CAEB6FE008553DA /* xpg.jpg in Resources */,
+				00D45F081CAEB6FE008553DA /* 李克勤.jpg in Resources */,
+				00D45F001CAEB6FE008553DA /* test.wav in Resources */,
+				00F7D4791CAFF2BC00DEDEC4 /* WTLyricSlider.xib in Resources */,
+				00D45F031CAEB6FE008553DA /* 小苹果.lrc in Resources */,
+				00D45EF71CAEB6FE008553DA /* chatcome.wav in Resources */,
+				0067CF421CAD5D0000C28828 /* LaunchScreen.storyboard in Resources */,
+				00D45EF61CAEB6FE008553DA /* buyao.wav in Resources */,
+				00D45F0C1CAEB6FF008553DA /* mlist.plist in Resources */,
+				0067CF3F1CAD5D0000C28828 /* Assets.xcassets in Resources */,
+				00D45EFB1CAEB6FE008553DA /* jason.jpg in Resources */,
+				00D45F061CAEB6FE008553DA /* 月半小夜曲.lrc in Resources */,
+				00D45EFE1CAEB6FE008553DA /* paomo.jpg in Resources */,
+				00D45EF91CAEB6FE008553DA /* I'm yours.lrc in Resources */,
+				00D45EFC1CAEB6FE008553DA /* lamazhengzhuan.jpg in Resources */,
+				0067CF3D1CAD5D0000C28828 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0067CF461CAD5D0000C28828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0067CF511CAD5D0000C28828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13EFBC5F9543113AAC1421A3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26D51BCDB0A53F1A1069EABE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4812348064314A0FA8AC4C42 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0067CF2B1CAD5CFF00C28828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D45F211CAEC932008553DA /* NSDateFormatter+Shared.m in Sources */,
+				0067CF3A1CAD5D0000C28828 /* ViewController.m in Sources */,
+				00D45F1E1CAEC7C5008553DA /* WTLineLyric.m in Sources */,
+				00D45F271CAECF3E008553DA /* WTLyricLabel.m in Sources */,
+				0067CF371CAD5D0000C28828 /* AppDelegate.m in Sources */,
+				0067CF341CAD5CFF00C28828 /* main.m in Sources */,
+				00F7D4771CAFF28F00DEDEC4 /* WTLyricSlider.m in Sources */,
+				00D45F181CAEBA99008553DA /* WTMusic.m in Sources */,
+				00A626091CC51747007A0607 /* WTFormattor.m in Sources */,
+				00D45F241CAEC9A0008553DA /* WTLyricParser.m in Sources */,
+				00D45F151CAEBA6A008553DA /* NSObject+Model.m in Sources */,
+				00A6260C1CC5182D007A0607 /* WTPlayerManager.m in Sources */,
+				00F7D4741CAFC12600DEDEC4 /* WTLyricView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0067CF441CAD5D0000C28828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0067CF4D1CAD5D0000C28828 /* QQ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0067CF4F1CAD5D0000C28828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0067CF581CAD5D0000C28828 /* QQ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0067CF4A1CAD5D0000C28828 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0067CF2E1CAD5CFF00C28828 /* QQ音乐项目 */;
+			targetProxy = 0067CF491CAD5D0000C28828 /* PBXContainerItemProxy */;
+		};
+		0067CF551CAD5D0000C28828 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0067CF2E1CAD5CFF00C28828 /* QQ音乐项目 */;
+			targetProxy = 0067CF541CAD5D0000C28828 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0067CF3B1CAD5D0000C28828 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0067CF3C1CAD5D0000C28828 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0067CF401CAD5D0000C28828 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0067CF411CAD5D0000C28828 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0067CF5A1CAD5D0000C28828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0067CF5B1CAD5D0000C28828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0067CF5D1CAD5D0000C28828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 606ECF22DA3A9FE6AB4D490C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = "QQ音乐项目/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "heima.QQ----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0067CF5E1CAD5D0000C28828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D12DDE2A0DC4EC824E468C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = "QQ音乐项目/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "heima.QQ----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0067CF601CAD5D0000C28828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "QQ音乐项目Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "heima.QQ----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ音乐项目.app/QQ音乐项目";
+			};
+			name = Debug;
+		};
+		0067CF611CAD5D0000C28828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "QQ音乐项目Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "heima.QQ----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ音乐项目.app/QQ音乐项目";
+			};
+			name = Release;
+		};
+		0067CF631CAD5D0000C28828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "QQ音乐项目UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "heima.QQ----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "QQ音乐项目";
+			};
+			name = Debug;
+		};
+		0067CF641CAD5D0000C28828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "QQ音乐项目UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "heima.QQ----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "QQ音乐项目";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0067CF2A1CAD5CFF00C28828 /* Build configuration list for PBXProject "QQ音乐项目" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0067CF5A1CAD5D0000C28828 /* Debug */,
+				0067CF5B1CAD5D0000C28828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0067CF5C1CAD5D0000C28828 /* Build configuration list for PBXNativeTarget "QQ音乐项目" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0067CF5D1CAD5D0000C28828 /* Debug */,
+				0067CF5E1CAD5D0000C28828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0067CF5F1CAD5D0000C28828 /* Build configuration list for PBXNativeTarget "QQ音乐项目Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0067CF601CAD5D0000C28828 /* Debug */,
+				0067CF611CAD5D0000C28828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0067CF621CAD5D0000C28828 /* Build configuration list for PBXNativeTarget "QQ音乐项目UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0067CF631CAD5D0000C28828 /* Debug */,
+				0067CF641CAD5D0000C28828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0067CF271CAD5CFF00C28828 /* Project object */;
+}
